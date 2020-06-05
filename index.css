@@ -159,6 +159,9 @@ footer nav a {
 .header-links a:hover{
     font-size:1.2rem;
 }
+.banner{
+    margin-bottom: 2%;
+}
 
 .header-links{
     width: 80%;

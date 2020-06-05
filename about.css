@@ -49,12 +49,12 @@ table {
 
 * {
     box-sizing: border-box;
-    
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    margin: 2% 50% 2% 25%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,24 +69,6 @@ p {
 
 .container {
     width: 800px;
-}
-
-.header-links a{
-    text-decoration:none;
-    color:black;
-    font-size:1rem;
-}
-
-.header-links a:hover{
-    font-size:1.2rem;
-}
-
-.header-links{
-    width: 75%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
 }
 
 .top-content {
@@ -162,7 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*Header styling*/
+.header{
+    display:flex;
+    align-items:flex-end;
+    margin-bottom: 6%;
+}
+.header-links a{
+    text-decoration:none;
+    color:black;
+    font-size:1rem;
+}
 
-/*Code above provided*/
+.header-links a:hover{
+    font-size:1.2rem;
+}
 
-
+.header-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    float:right; 
+}

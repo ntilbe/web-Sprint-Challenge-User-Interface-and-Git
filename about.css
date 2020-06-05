@@ -69,6 +69,7 @@ p {
 
 .container {
     width: 800px;
+    
 }
 
 .top-content {
@@ -165,4 +166,75 @@ footer nav a {
     display: flex;
     justify-content: space-evenly;
     float:right; 
+}
+
+.about-section{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.about-section p{
+    margin-bottom: 4%;
+}
+
+.strategy-section{
+    border-top: 1px dashed black;
+    margin-bottom: 4%;
+}
+.strategy-section img{
+    margin-top: 4%;
+    /* margin-left: 3%; this fixed the line and image overlap*/
+}
+.strategy-section p{
+    margin-bottom: 4%;
+}
+
+.link{
+    padding: 13px 0 13px 0;
+	background: white;
+	border: 2px solid black;
+    border-radius: 10px; /* helps round the edges so it's not so "boxy"*/
+    color: black;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    width:18%
+}
+
+.how-we-work{
+    border-top: 1px dashed black;
+    margin-bottom: 4%;
+}
+
+.how-we-work img{
+    margin-top:4%;
+}
+
+.how-we-work p{
+    margin-bottom: 4%;
+}
+
+.places-we-work{
+    border-top: 1px dashed black;
+    margin-bottom: 4%;
+}
+
+.places-we-work img{
+    margin-top:4%;
+}
+.places-we-work p{
+    margin-bottom: 4%;
+}
+
+.collaboration{
+    border-top: 1px dashed black;
+    margin-bottom: 4%;
+}
+.collaboration img{
+    margin-top:4%;
+}
+
+.collaboration p{
+    margin-bottom: 4%;
 }

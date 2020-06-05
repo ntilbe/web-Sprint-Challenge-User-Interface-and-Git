@@ -151,6 +151,7 @@ footer nav a {
     display:flex;
     align-items:flex-end;
     margin-bottom: 6%;
+    margin-left:4%;
 }
 .header-links a{
     text-decoration:none;
@@ -170,7 +171,7 @@ footer nav a {
 }
 
 .about-section{
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 4%;
 }
@@ -178,7 +179,9 @@ footer nav a {
 .about-section p{
     margin-bottom: 4%;
 }
-
+.class{
+    margin-left:4%;
+}
 .strategy-section{
     margin-bottom: 4%;
     margin-right:2%;
@@ -210,6 +213,7 @@ footer nav a {
 .how-we-work{
     margin-bottom: 4%;
     margin-left:2%;
+    margin-right: 6%;
 }
 .how-we-work h3{
     margin-top: 2%;
@@ -237,11 +241,14 @@ footer nav a {
 .places-we-work p{
     margin-bottom: 4%;
 }
-
+.banner{
+    margin-left: 4%;
+}
 .empty{
     margin-top: 5%;
     border-bottom: 1px dashed black;
-    width:106%;
+    width:107%;
+    margin-left: -2%;
 }
 .collaboration{
     border-top: 1px dashed black;

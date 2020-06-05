@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 2% 50% 2% 25%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,9 +144,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*Header styling*/
 
-/*Code above provided*/
+.header-links a{
+    text-decoration:none;
+    color:black;
+    font-size:1rem;
+}
 
+.header-links a:hover{
+    font-size:1.2rem;
+}
 
+.header-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    float:right; 
+    margin-bottom:3%;
+}
 
+.logo{
+    margin-bottom: 4%;
+}
+/* Boxes*/
+#b1{
+    background-color: teal;
+}
 
+#b2{
+    background-color:gold;
+}
+
+#b3{
+    background-color:cadetblue;
+}
+
+#b4{
+    background-color:coral;
+}
+
+#b5{
+    background-color:crimson;
+}
+
+#b6{
+    background-color:forestgreen;
+}
+
+#b7{
+    background-color:darkorchid;
+}
+
+#b8{
+    background-color:hotpink;
+}
+
+#b9{
+    background-color:indigo;
+}
+
+#b10{
+    background-color:dodgerblue;
+}

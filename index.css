@@ -145,7 +145,11 @@ footer nav a {
     text-decoration: none;
 }
 /*Header styling*/
-
+.header{
+    display:flex;
+    align-items:flex-end;
+    margin-bottom: 4%;
+}
 .header-links a{
     text-decoration:none;
     color:black;
@@ -161,12 +165,8 @@ footer nav a {
     display: flex;
     justify-content: space-evenly;
     float:right; 
-    margin-bottom:3%;
 }
 
-.logo{
-    margin-bottom: 4%;
-}
 /* Boxes*/
 #b1{
     background-color: teal;

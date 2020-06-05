@@ -56,9 +56,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-#teal{
-    background-color: teal;
-}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -147,3 +144,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Code above provided*/
+

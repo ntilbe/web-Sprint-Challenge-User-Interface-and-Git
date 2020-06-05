@@ -147,14 +147,22 @@ footer nav a {
 }
 
 /*Code above provided*/
-.logo{
-    padding:2%;
+
+.header{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.about-section{
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+    margin: 11px 260px;
 }
 
 .header-links{
-    text-decoration: none;
-}
-
-#teal{
-    background-color: teal;
+    color:black;
 }
